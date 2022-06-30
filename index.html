@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Write a JavaScript program which iterates the integers from 1 to 100. But for
+// multiples of three print "Fizz" instead of the number and for the multiples 
+// of five "Buzz". For numbers which are multiples of both three and five print 
+// "FizzBuzz".
+
+   
+for(let i=0;i<101;i++){
+if(i%3==0 && i%5==0)document.write(i +"\nFizzBuzz\n")
+if(i%5==0)document.write(i +"\nFizzBuzz\n")
+if(i%3==0)document.write(i +"FizzBuzz")
+else document.write(i,"\n")
+}
+// Write a JavaScript program to sum 
+// the multiples of 3 and 5 under 1000.
+ p = 0
+for ( let x= 0; x<=1000; x++){
+    if(x%3===0 && x%5==0)
+    { 
+        p+=x
+    }
+}
+document.write(p)
+
+// Write a JavaScript for loop 
+// that will iterate from 0 to 20. For each iteration, it will
+// check if the current number is odd or even,
+//  and display a message to the screen.
+// Sample Output :
+// "0 is even"
+// "1 is odd"
+// "2 is even"
+
+for (let k=0;k<=20; k++){
+    if(q%2==0) document.write(q +"n\even\n")
+    else document.write(q +"n\odd\n")    
+}
+//write a JavaScript conditional statement to find the largest of 
+// five numbers in the
+// given array.
+// Let num = [-2, 4,-5, 6,0 ]
+
+let num =[-2, 4,-5, 6,0 ] 
+for (w in num);{ 
+document.write(max(num))
+}
+
+// Using conditional statements, write a 
+// JavaScript program to find the largest of the
+// following two numbers: 10 & 40
+let numbers =[10,40]
+
+
+
+  
+    </script>
+        
+</body>
+</html>
